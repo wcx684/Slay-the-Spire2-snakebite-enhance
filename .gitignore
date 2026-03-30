@@ -1,7 +1,51 @@
-# Godot 4+ specific ignores
+# =========================
+# Godot generated metadata
+# =========================
 .godot/
 /android/
 
+# =========================
+# IDE / editor local state
+# =========================
 .vscode/
+.vs/
+.idea/
+*.code-workspace
 
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# C# / .NET build outputs
+# =========================
+bin/
+obj/
+TestResults/
+*.user
+*.rsuser
+*.suo
+
+# =========================
+# Godot C# generated files
+# Keep your hand-maintained csproj/sln if you version them intentionally.
+# =========================
+*.csproj.user
+*.sln.docstates
+
+# =========================
+# Local notes / scratch
+# =========================
 ai-memory/
+*.tmp
+*.bak
+
+# Local project file strategy:
+# - Commit snakebite.csproj.example as shared template
+# - Keep snakebite.csproj local-only to avoid machine-specific path pollution
+snakebite.csproj
+
+# Local backup/example copy not intended for versioning
+*.csproj.exmple
