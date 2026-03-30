@@ -3,6 +3,8 @@
   "SNAKEBITE-SNAKEBITE_STORM.description": "弃掉你手中的所有牌。每以此法弃掉1张牌，将1张[gold]蛇咬[/gold]加入你的手牌。",
   "SNAKEBITE-SNAKEBITE_TIME.title": "蛇咬时间",
   "SNAKEBITE-SNAKEBITE_TIME.description": "本回合，你的所有[gold]蛇咬[/gold]费用变为0。",
+  "SNAKEBITE-SNAKEBITE_HELLBITE.title": "地狱狂咬",
+  "SNAKEBITE-SNAKEBITE_HELLBITE.description": "每当你抽到名字中有“蛇咬”的牌时，对一名随机敌人打出这张牌。",
   "SNAKEBITE-SNAKEBITETIME.title": "蛇咬时间",
   "SNAKEBITE-SNAKEBITETIME.description": "本回合，你的所有[gold]蛇咬[/gold]费用变为0。"
 }

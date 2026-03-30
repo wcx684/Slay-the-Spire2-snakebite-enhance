@@ -27,7 +27,7 @@ If information is missing, ask concise questions first.
 
 ## Source Priority
 1. tutorials/sts2-card-mod-guide-zh-cn.md
-2. STS2 decompiled source and BaseLib source at E:/STS2
+2. STS2 decompiled source and BaseLib source at C:\Users\wcx\Desktop\mod\code
 3. External docs (including https://glitchedreme.github.io/SlayTheSpire2ModdingTutorials/docs/03-baselib/)
 
 When conflicts exist, prefer observed source behavior.
