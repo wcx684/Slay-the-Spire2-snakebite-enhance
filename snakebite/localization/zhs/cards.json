@@ -13,10 +13,8 @@
   "SNAKEBITE-SNAKEBITE_PERFECTED.description": "给予敌人7层[gold]中毒[/gold]。\n你每有一张名字中含有“蛇咬”的牌，额外给予{ExtraDamage:diff()}层。",
   "SNAKEBITE-SNAKEBITE_INFINITE.title": "无尽蛇咬",
   "SNAKEBITE-SNAKEBITE_INFINITE.description": "在你的回合开始时，在你的[gold]手牌[/gold]中加入1张[gold]蛇咬[/gold]。它本回合费用为0。",
-  "SNAKEBITE-SNAKEBITE_BITE_YOU.title": "咬着你",
-  "SNAKEBITE-SNAKEBITE_BITE_YOU.description": "将2张[gold]蛇咬[/gold]加入所选队友的手牌。",
-  "SNAKEBITE-SNAKEBITE_TRAP.title": "蛇咬陷阱",
-  "SNAKEBITE-SNAKEBITE_TRAP.description": "对一名敌人打出你[gold]手牌[/gold]、[gold]抽牌堆[/gold]、[gold]弃牌堆[/gold]与[gold]消耗牌堆[/gold]中的所有[gold]蛇咬[/gold]/[gold]蛇咬+[/gold]",
+  "SUCKER_PUNCH.title": "突然蛇咬",
+  "SUCKER_PUNCH.description": "给予{IfUpgraded:show:7|5}层[gold]中毒[/gold]。\n给予{WeakPower:diff()}层[gold]虚弱[/gold]。",
   "SNAKEBITE-SNAKEBITEFAN.title": "蛇咬扇",
   "SNAKEBITE-SNAKEBITEFAN.description": "获得1层[gold]蛇咬扇[/gold]。将{Cards:diff()}张[gold]蛇咬[/gold]加入你的手牌。"
 }
