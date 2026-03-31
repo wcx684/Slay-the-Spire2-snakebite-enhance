@@ -4,6 +4,9 @@
   "SNAKEBITE-SNAKEBITE_HELLBITE_POWER.smartDescription": "每当你抽到名字中有“蛇咬”的牌时，对一名随机敌人打出这张牌。",
   "SNAKEBITE-SNAKEBITE_FAN_POWER.title": "蛇咬扇",
   "SNAKEBITE-SNAKEBITE_FAN_POWER.description": "本场战斗中，你打出的[gold]蛇咬[/gold]改为对所有敌人生效。",
+  "SNAKEBITE-SNAKEBITE_INFINITE_POWER.title": "无尽蛇咬",
+  "SNAKEBITE-SNAKEBITE_INFINITE_POWER.description": "在你的回合开始时，在你的[gold]手牌[/gold]中加入一张[gold]蛇咬[/gold]。它本回合费用为0。",
+  "SNAKEBITE-SNAKEBITE_INFINITE_POWER.smartDescription": "在你的回合开始时，在你的[gold]手牌[/gold]中加入[blue]{Amount}[/blue]张[gold]蛇咬[/gold]。它们本回合费用为0。",
   "SNAKEBITE-SNAKEBITEFANPOWER.title": "蛇咬扇",
   "SNAKEBITE-SNAKEBITEFANPOWER.description": "本场战斗中，你打出的[gold]蛇咬[/gold]改为对所有敌人生效。"
 }

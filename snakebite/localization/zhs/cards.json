@@ -11,6 +11,8 @@
   "SNAKEBITE-SNAKEBITE_FAN.description": "获得1层[gold]蛇咬扇[/gold]。将{Cards:diff()}张[gold]蛇咬[/gold]加入你的手牌。",
   "SNAKEBITE-SNAKEBITE_PERFECTED.title": "完美蛇咬",
   "SNAKEBITE-SNAKEBITE_PERFECTED.description": "给予敌人7层[gold]中毒[/gold]。\n你每有一张名字中含有“蛇咬”的牌，额外给予{ExtraDamage:diff()}层。",
+  "SNAKEBITE-SNAKEBITE_INFINITE.title": "无尽蛇咬",
+  "SNAKEBITE-SNAKEBITE_INFINITE.description": "在你的回合开始时，在你的[gold]手牌[/gold]中加入1张[gold]蛇咬[/gold]。它本回合费用为0。",
   "SNAKEBITE-SNAKEBITEFAN.title": "蛇咬扇",
   "SNAKEBITE-SNAKEBITEFAN.description": "获得1层[gold]蛇咬扇[/gold]。将{Cards:diff()}张[gold]蛇咬[/gold]加入你的手牌。"
 }
