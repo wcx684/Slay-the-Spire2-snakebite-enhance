@@ -53,3 +53,6 @@ snakebite.csproj
 # temp files
 *.tmp
 tmp/
+
+
+.github/skills/sts2-card-construction/

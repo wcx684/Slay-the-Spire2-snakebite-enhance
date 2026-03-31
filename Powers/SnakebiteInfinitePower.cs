@@ -35,6 +35,7 @@ public sealed class SnakebiteInfinitePower : PowerModel
         {
             CardModel snakebite = combatState.CreateCard<OriginalSnakebite>(owner.Player);
             snakebite.SetToFreeThisTurn();
+            SnakebiteCardUtils.ApplySnakebiteTimeIfActive(snakebite);
             generatedCards.Add(snakebite);
         }
 

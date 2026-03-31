@@ -66,7 +66,10 @@ public sealed class SnakebiteStorm : CustomCardModel
         List<CardModel> generatedSnakebites = new(discardedCount);
         for (int i = 0; i < discardedCount; i++)
         {
-            generatedSnakebites.Add(combatState.CreateCard<OriginalSnakebite>(owner));
+            CardModel snakebite = combatState.CreateCard<OriginalSnakebite>(owner);
+            SnakebiteCardUtils.SetExhaustOnPlay(snakebite);
+            SnakebiteCardUtils.ApplySnakebiteTimeIfActive(snakebite);
+            generatedSnakebites.Add(snakebite);
         }
 
         await CardPileCmd.AddGeneratedCardsToCombat(generatedSnakebites, PileType.Hand, addedByPlayer: true);

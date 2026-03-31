@@ -1,0 +1,4 @@
+{
+  "SNAKEBITE-CARD_NAME_HERE.title": "蛇咬风暴",
+  "SNAKEBITE-CARD_NAME_HERE.description": "造成{Damage:diff()}点伤害。施加{Poison:diff()}层[gold]中毒[/gold]。"
+}

@@ -46,7 +46,9 @@ public sealed class SnakebiteFan : CustomCardModel
         List<CardModel> generatedCards = new(DynamicVars.Cards.IntValue);
         for (int i = 0; i < DynamicVars.Cards.IntValue; i++)
         {
-            generatedCards.Add(combatState.CreateCard<OriginalSnakebite>(owner));
+            CardModel snakebite = combatState.CreateCard<OriginalSnakebite>(owner);
+            SnakebiteCardUtils.ApplySnakebiteTimeIfActive(snakebite);
+            generatedCards.Add(snakebite);
         }
 
         await CardPileCmd.AddGeneratedCardsToCombat(generatedCards, PileType.Hand, addedByPlayer: true);
